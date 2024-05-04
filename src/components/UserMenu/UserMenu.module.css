@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.logoutBtn {
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #d1d0d0;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.04em;
+    border: 1px solid #303030;
+    height: 32px;
+}
