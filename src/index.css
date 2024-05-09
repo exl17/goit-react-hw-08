@@ -1,17 +1,19 @@
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif !important;
+  
 }
 
 body {
-  /* display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column; */
   background-color: #ffffff;
   color: #212121;
   line-height: 1.5;
   width: 100vw;
+  
+}
+
+button {
+  cursor: pointer;
 }
 
 ul,

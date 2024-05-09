@@ -1,17 +1,14 @@
-import { ProgressBar } from "react-loader-spinner";
-// import css from "./Loader.module.css";
+import { Oval } from "react-loader-spinner";
+
 
 const Loader = () => {
   return (
     <div>
-      <ProgressBar
-        visible={true}
-        height="80"
-        width="80"
-        color="#4fa94d"
-        ariaLabel="progress-bar-loading"
-        wrapperStyle={{}}
-        wrapperClass=""
+    <Oval
+        type="ThreeDots" 
+        color="#00BFFF"
+        height={100}
+        width={100}
       />
     </div>
   );
